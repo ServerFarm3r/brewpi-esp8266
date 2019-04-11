@@ -128,7 +128,7 @@ void setup()
 	// If we're going to set up WiFi, let's get to it
 	WiFiManager wifiManager;
 	wifiManager.setConfigPortalTimeout(5*60); // Time out after 5 minutes so that we can keep managing temps 
-	wifiManager.setDebugOutput(FALSE); // In case we have a serial connection to BrewPi
+	wifiManager.setDebugOutput(false); // In case we have a serial connection to BrewPi
 									   
 	// The main purpose of this is to set a boolean value which will allow us to know we
 	// just saved a new configuration (as opposed to rebooting normally)

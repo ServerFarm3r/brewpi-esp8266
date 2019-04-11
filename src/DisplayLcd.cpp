@@ -45,6 +45,8 @@ LcdDriver LcdDisplay::lcd;
 // Constant strings used multiple times
 static const char STR_Beer_[] PROGMEM = "Beer ";
 static const char STR_Fridge_[] PROGMEM = "Fridge ";
+static const char STR_Glycol_[] PROGMEM = "Glycol ";
+static const char STR_Profile_[] PROGMEM = "Profile";
 static const char STR_Const_[] PROGMEM = "Const.";
 static const char STR_Cool[] PROGMEM = "Cool";
 static const char STR_Heat[] PROGMEM = "Heat";
@@ -190,7 +192,15 @@ void LcdDisplay::printMode(void){
 			break;
 		case MODE_BEER_PROFILE:
 			lcd.print_P(STR_Beer_);
-			lcd.print_P(PSTR("Profile"));
+			lcd.print_P(STR_Profile_);
+			break;
+		case MODE_GLYCOL_CONSTANT:
+			lcd.print_P(STR_Glycol_);
+			lcd.print_P(STR_Const_);
+			break;
+		case MODE_GLYCOL_PROFILE:
+			lcd.print_P(STR_Glycol_);
+			lcd.print_P(STR_Profile_);
 			break;
 		case MODE_OFF:
 			lcd.print_P(PSTR("Off"));

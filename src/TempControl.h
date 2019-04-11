@@ -71,6 +71,8 @@ struct ControlVariables{
 #define	MODE_FRIDGE_CONSTANT 'f'
 #define MODE_BEER_CONSTANT 'b'
 #define MODE_BEER_PROFILE 'p'
+#define MODE_GLYCOL_CONSTANT 'g'
+#define MODE_GLYCOL_PROFILE 'y'
 #define MODE_OFF 'o'
 #define MODE_TEST 't'
 
