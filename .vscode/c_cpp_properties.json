@@ -1,8 +1,7 @@
 {
     "configurations": [
         {
-            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags",
-            "intelliSenseMode": "msvc-x64"
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
         },
         {
             "name": "Win32",
@@ -14,8 +13,8 @@
                 "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/variants/nodemcu",
                 "c:/Users/adams/Code Projects/brewpi-esp8266/.piolibdeps/WifiManager",
                 "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266mDNS/src",
-                "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src",
                 "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src",
+                "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src",
                 "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src",
                 "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/Wire",
                 "C:/Users/adams/.platformio/lib/DallasTemperature_ID54",
@@ -43,7 +42,6 @@
                 "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker",
                 "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src",
                 "C:/Users/adams/.platformio/packages/tool-unity",
-                "c:/Users/adams/Code Projects/brewpi-esp8266/include",
                 "c:/Users/adams/Code Projects/brewpi-esp8266/src",
                 ""
             ],
@@ -58,8 +56,8 @@
                     "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/variants/nodemcu",
                     "c:/Users/adams/Code Projects/brewpi-esp8266/.piolibdeps/WifiManager",
                     "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266mDNS/src",
-                    "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src",
                     "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src",
+                    "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src",
                     "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src",
                     "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/Wire",
                     "C:/Users/adams/.platformio/lib/DallasTemperature_ID54",
@@ -87,13 +85,12 @@
                     "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker",
                     "C:/Users/adams/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src",
                     "C:/Users/adams/.platformio/packages/tool-unity",
-                    "c:/Users/adams/Code Projects/brewpi-esp8266/include",
                     "c:/Users/adams/Code Projects/brewpi-esp8266/src",
                     ""
                 ]
             },
             "defines": [
-                "PLATFORMIO=30606",
+                "PLATFORMIO=30607",
                 "ESP8266",
                 "ARDUINO_ARCH_ESP8266",
                 "ARDUINO_ESP8266_NODEMCU",
@@ -114,7 +111,7 @@
             "intelliSenseMode": "clang-x64",
             "cStandard": "c99",
             "cppStandard": "c++11",
-            "compilerPath": "C:/Users/adams/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-gcc.exe -mlongcalls -mtext-section-literals"
+            "compilerPath": "\"C:/Users/adams/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-gcc.exe\" -mlongcalls -mtext-section-literals"
         }
     ],
     "version": 4

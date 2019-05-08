@@ -645,14 +645,14 @@ const ControlConstants TempControl::ccDefaults PROGMEM =
 	/* tempSettingMax */ intToTemp(30),	// +30 deg Celsius
 	
 	// control defines, also in fixed point format (7 int bits, 9 frac bits), so multiplied by 2^9=512
-	/* Kp	*/ intToTempDiff(5),	// +5
-	/* Ki	*/ intToTempDiff(1)/4, // +0.25
-	/* Kd	*/ intToTempDiff(-3)/2,	// -1.5
-	/* iMaxError */ intToTempDiff(5)/10,  // 0.5 deg
+	/* Kp	*/ intToTempDiff(0),	// +5
+	/* Ki	*/ intToTempDiff(0), // +0.25
+	/* Kd	*/ intToTempDiff(0),	// -1.5
+	/* iMaxError */ intToTempDiff(0),  // 0.5 deg
 
 	// Stay Idle when fridge temperature is in this range
-	/* idleRangeHigh */ intToTempDiff(1),	// +1 deg Celsius
-	/* idleRangeLow */ intToTempDiff(-1),	// -1 deg Celsius
+	/* idleRangeHigh */ intToTempDiff(1)/2,	// +1 deg Celsius
+	/* idleRangeLow */ intToTempDiff(-1)/2,	// -1 deg Celsius
 
 	// when peak falls between these limits, its good.
 	/* heatingTargetUpper */ intToTempDiff(3)/10,	// +0.3 deg Celsius
