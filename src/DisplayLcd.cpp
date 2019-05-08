@@ -71,7 +71,11 @@ void LcdDisplay::init(void){
 	toggleBacklight = false;
 #endif
 	stateOnDisplay = 0xFF; // set to unknown state to force update
-	flags = LCD_FLAG_DISPLAY_ROOM;
+	if(tempControl.fridgeSensor->isGlycolSetup())
+		flags = LCD_FLAG_DISPLAY_ROOM;
+	else
+		flags = LCD_FLAG_ALTERNATE_ROOM;
+
 	lcd.init(); // initialize LCD
 	lcd.begin(20, 4);
 	lcd.clear();

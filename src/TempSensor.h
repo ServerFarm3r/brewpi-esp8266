@@ -77,8 +77,15 @@ class TempSensor {
 			else
 				return _sensor->isConnected(); 
 		}
+	bool isGlycolSetup() {
+			if(_useBackupSensor && _backupSensor)
+				return true;
+			else
+				return false;
+	}
 	#else
 	bool isConnected() { return _sensor->isConnected(); }
+	bool isGlycolSetup() { return false; }
 	#endif
 	void update();
 	

@@ -2,5 +2,9 @@
     "terminal.integrated.env.windows": {
         "PATH": "C:\\Users\\adams\\.platformio\\penv\\Scripts;C:\\Users\\adams\\.platformio\\penv;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Amazon\\AWSCLI\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\adams\\AppData\\Local\\Microsoft\\WindowsApps;C:\\adb;C:\\Program Files\\Git\\cmd;C:\\Users\\adams\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\adams\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\adams\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\adams\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Amazon\\AWSCLI\\;C:\\Program Files\\PuTTY\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\adams\\AppData\\Local\\Microsoft\\WindowsApps;C:\\adb;C:\\Program Files\\Git\\cmd;C:\\Users\\adams\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\adams\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\adams\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\adams\\AppData\\Local\\Programs\\Microsoft VS Code\\bin",
         "PLATFORMIO_CALLER": "vscode"
+    },
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/astrad/.platformio/penv/bin:/home/astrad/.platformio/penv:/home/astrad/.local/bin:/home/astrad/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin",
+        "PLATFORMIO_CALLER": "vscode"
     }
 }
