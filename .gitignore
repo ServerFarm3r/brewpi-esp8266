@@ -3,7 +3,8 @@ CMakeListsPrivate.txt
 .piolibdeps
 .idea/
 cmake-build-debug/
-
+.vscode
+bin
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
