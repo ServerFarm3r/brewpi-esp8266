@@ -251,3 +251,9 @@
 #define BUFFER_PILINK_PRINTS 1
 
 #define FORCE_DEVICE_DEFAULTS 1	 // Locks Chamber 1/Beer 1
+
+// Glycol Support
+#ifdef EnableGlycolSupport
+#define FridgeSensorFallback true
+#define SettableMinimumCoolTime true
+#endif
